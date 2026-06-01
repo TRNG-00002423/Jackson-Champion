@@ -34,4 +34,4 @@ git push origin feature/add-test-plan**'
 2: list the files in the directory using '**ls**'. Only the README.md file is shown
 
 Q: **Where did test-plan.md and test-cases.md go?**.
-A: The test-plan.md and test-cases.md file are not appearing because they were created inside the feature/add-test-plan branch. There are separate commit histories for each branch, that is why there were three commits for the new branch and only one for main earlier. The two new files will be seen in main once they are merged from the feature/add-test-plan branch branch.
+A: The test-plan.md and test-cases.md file are not appearing because they were created inside the feature/add-test-plan branch. The two new files will be seen in main once they are merged from the feature/add-test-plan branch.
