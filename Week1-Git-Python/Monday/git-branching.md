@@ -11,4 +11,4 @@ echo "A quality assurance automation project." >> README.md**'
 
 5: Staged and commited the changes using **git add README.md** and added the message         '**git commit -m "Initial commit: add README"**'
 
-6: Verified the commit with '**git log --oneline**'
+6: Verified the commit with '**git log --oneline**'. The log shows my one commit.
