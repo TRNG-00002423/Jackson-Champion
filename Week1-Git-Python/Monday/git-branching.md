@@ -35,3 +35,10 @@ git push origin feature/add-test-plan**'
 
 Q: **Where did test-plan.md and test-cases.md go?**.
 A: The test-plan.md and test-cases.md file are not appearing because they were created inside the feature/add-test-plan branch. Changes from each branch are usually isolated from other branches until they are merged. Once a merge is made, main will have the two new files.
+
+
+**Task 4: Make a Change on Main**
+
+1: Made changes in README.md file in main in the terminal by adding a "Team" section using '**nano README.md**'.
+2: Once changes are saved I staged the changes '**git add README.md**', commited '**git commit -m "Add team section to README", and pushed changes to main '**git push origin main**'.
+
