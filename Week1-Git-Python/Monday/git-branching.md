@@ -23,6 +23,6 @@ echo "A quality assurance automation project." >> README.md**'
 git commit -m "Add test plan document"
 git push origin feature/add-test-plan**'
 
-4: Repeated steps 2 and 3 for another file named 'test-cases.md', staged and committed the changes with the message "**Add initial test cases**"
+4: Repeated steps 2 and 3 for another file named 'test-cases.md'. The changes are then staged and  committed with the message "**Add initial test cases**"
 
 5: Verified the commit with '**git log --oneline**' and verified 3 commits on feature/add-test-plan, and only one on the main branch
