@@ -69,7 +69,7 @@ A: The test-plan.md and test-cases.md file are not appearing because they were c
 
 5: opened test-plan.md file and edited in main '**nano test-plan.md**'. Changed the "Scope" section differently, with "- User profile management" and "-Admin Dashboard" added instead of "-Shopping cart" and "-Payment Processing".
 
-6: commit changes '**git add test-plan.md git commit -m "Expand test plan scope on main"**'
+6: commit changes '**git add test-plan.md git commit -m "Update test plan scope on main"**'
 
 7: Attempted merge with '**git merge feature/update-test-plan**'
 
@@ -77,6 +77,6 @@ A: The test-plan.md and test-cases.md file are not appearing because they were c
 
 9: Issue resolves by deleting the conflict markers and combine both versions into one.
 
-10: Staged and commit the resolved file with '**git add test-plan.md git commit -m "Resolve merge conflict: combine scope updates**"
+10: Staged and commit the resolved file with '**git add test-plan.md git commit -m "Resolve merge conflict: combine scope updates**"'
 
 11: Run git log --oneline --graph to see the full merge history and push changes to main '**git push origin main**'.
