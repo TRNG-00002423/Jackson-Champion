@@ -1,4 +1,4 @@
-**Task 1: Initialize the Repository**
+Task 1: Initialize the Repository
 
 Step 1: I created a new directory and named it qa-project using the local terminal using the command **mkdir qa-project**. 
 
