@@ -198,6 +198,7 @@ results = [
     create_test_result("test_profile", "pass", 450),
 ]
 
+#Test cases for analyze_results
 passed, failed, rate, avg = analyze_results(*results)
 assert passed == 3
 assert failed == 1
