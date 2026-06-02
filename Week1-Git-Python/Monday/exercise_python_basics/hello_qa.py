@@ -1,12 +1,12 @@
 import sys
 
-# TODO 1: Ask the user for their name
+# TODO 1: Ask the user for their name using input()
 name = input("Enter your name: ")
 
 # TODO 2: Ask the user for their role
 role = input("Enter your role: ")
 
-# TODO 3: Print a welcome message using an f-string
+# TODO 3: Print a greeting using an f-string
 # Expected: "Welcome, {name}! Your role is {role}."
 print(f"Welcome, {name}! Your role is {role}.")
 

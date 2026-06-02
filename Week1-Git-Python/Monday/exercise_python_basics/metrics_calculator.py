@@ -12,9 +12,9 @@ def main():
     # - Total test cases (convert to int)
     # - Passed tests (convert to int)
     # - Total execution time in seconds (convert to float)
-    total_tests = int(input("Enter total number of test cases: "))
-    passed_tests = int(input("Enter number of passed tests: "))
-    total_time = float(input("Enter total execution time in seconds: "))
+    total_tests = int(input("Enter total test cases: "))
+    passed_tests = int(input("Enter passed tests: "))
+    total_time = float(input("Enter total execution time (seconds): "))
     
 
 
@@ -30,7 +30,7 @@ def main():
 
     # TODO 3: Print the results summary using f-strings
     print("═" * 40)
-    print("  Total Results Summary")
+    print("  Test Results Summary")
     print("═" * 40)
     
     print(f"Total tests: {total_tests}")
@@ -48,11 +48,11 @@ def main():
     # else   → RELEASE BLOCKED
     
     if pass_rate >= 95:
-        print("✅ RELEASE APPROVED")
+        print("Verdict: ✅ RELEASE APPROVED")
     elif pass_rate >= 80:
-        print("⚠️ CONDITIONAL RELEASE - review failures")
+        print("Verdict: ⚠️ CONDITIONAL RELEASE - review failures")
     else:
-        print("❌ RELEASE BLOCKED - too many failures")
+        print("Verdict: ❌ RELEASE BLOCKED - too many failures")
 
 
 if __name__ == "__main__":
