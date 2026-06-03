@@ -1,9 +1,17 @@
 classDiagram
     class TestCase {
         %% TODO: Add class attributes
-        total_created
+        + total_created : int
         %% TODO: Add instance attributes
+        + name : str
+        + description : str
+        + priority : str
+        + tags : list
         %% TODO: Add methods
+        + __init__(self, name, description, priority="medium", tags=None)
+        + run(self) : bool
+        + from_dict(cls, data)
+        + is_valid_name(name) : bool
     }
 
     class TestResult {
