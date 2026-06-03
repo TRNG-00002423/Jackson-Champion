@@ -1,4 +1,8 @@
 def fizzbuzz(n):
+    
+    if n < 1:
+        return "Input must be a positive integer"
+    
     if n % 3 == 0 and n % 5 ==0 and n % 7 == 0:
         return "FizzBuzzBoom"
     elif n % 3 == 0 and n % 5 == 0:
