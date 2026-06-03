@@ -16,12 +16,23 @@ classDiagram
 
     class TestResult {
         %% TODO: Add attributes
+        + test_name : str
+        + status : str
+        + duration_ms : float
+        + error_message : str or None
         %% TODO: Add methods
+        + summary() : str
     }
 
     class TestSuite {
         %% TODO: Add attributes
+        + name : str
+        + tests : list
         %% TODO: Add methods
+        + add_test()
+        + remove_name()
+        + get_by_priority()
+        + count() : int
     }
 
     class TestRunner {
