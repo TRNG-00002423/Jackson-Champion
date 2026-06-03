@@ -1,22 +1,44 @@
 classDiagram
     class TestCase {
         %% TODO: Add class attributes
+        + total_created : int
         %% TODO: Add instance attributes
+        + name : str
+        + description : str
+        + priority : str
+        + tags : list
         %% TODO: Add methods
+        + __init__()
+        + run() : bool
+        + from_dict()
+        + is_valid_name() : bool
     }
 
     class TestResult {
         %% TODO: Add attributes
+        + test_name : str
+        + status : str
+        + duration_ms : float
+        + error_message : str or None
         %% TODO: Add methods
+        + summary() : str
     }
 
     class TestSuite {
         %% TODO: Add attributes
+        + name : str
+        + tests : list
         %% TODO: Add methods
+        + add_test()
+        + remove_test()
+        + get_by_priority()
+        + count() : int
     }
 
     class TestRunner {
         %% TODO: Add methods
+        +run()
+        +summary()
     }
 
     %% TODO: Define relationships between classes
