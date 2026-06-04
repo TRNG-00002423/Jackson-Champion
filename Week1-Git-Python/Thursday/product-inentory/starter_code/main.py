@@ -101,7 +101,31 @@ def main():
 
     for config in product_configs:
         print(config)
+        
+    
+    print("\n--- Edge Case Testing ---")
+    
+    #Remove a product and try to sell it
+    try:
+        inv.remove_product(4)
+        print("Removed Product ID 4.")
 
+        inv.sell(4, 1)
+    except ProductNotFoundError as e:
+        print(f"❌ {e}")
+
+    #Adding Duplicate products
+    duplicate_item1 = Product("Laptop", 899.99, 10, "electronics")
+    duplicate_item2 = Product("Laptop", 1299.99, 3, "electronics")
+    
+    dupe_id1 = inv.add_product(duplicate_item1)
+    dupe_id2 = inv.add_product(duplicate_item2)
+    
+    print(f"Added duplicate 1 for ID {dupe_id1}: {duplicate_item1}")
+    print(f"Added duplicate 1 for ID {dupe_id2}: {duplicate_item2}")
+    
+    print(f"duplicate1 == duplicate2: {duplicate_item1 == duplicate_item2}") #result True.
+    print(f"Set of duplicates: { {duplicate_item1, duplicate_item2} }")
 
 if __name__ == "__main__":
     main()
