@@ -1,0 +1,56 @@
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:60 | QA Test Framework v1.0
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:61 | Initializing...
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:30 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:31 | Starting suite: Smoke Tests
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:32 | Tests to run: 3
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:33 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [1/3] Running test_login
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_login
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_login passed (1.90s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [2/3] Running test_homepage
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_homepage
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_homepage passed (1.28s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [3/3] Running test_search
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_search
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_search passed (1.15s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:48 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:49 | Results: 3/3 passed (100.0%)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:30 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:31 | Starting suite: Regression
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:32 | Tests to run: 5
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:33 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [1/5] Running test_checkout
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_checkout
+2026-06-05 18:57:36 | ERROR    | qa_framework | legacy_runner.py:20 | test_checkout failed!
+2026-06-05 18:57:36 | DEBUG    | qa_framework | legacy_runner.py:21 | test_checkout duration: 1.11s
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [2/5] Running test_payment
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_payment
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_payment passed (0.39s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [3/5] Running test_profile
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_profile
+2026-06-05 18:57:36 | ERROR    | qa_framework | legacy_runner.py:20 | test_profile failed!
+2026-06-05 18:57:36 | DEBUG    | qa_framework | legacy_runner.py:21 | test_profile duration: 0.97s
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [4/5] Running test_settings
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_settings
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_settings passed (0.42s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [5/5] Running test_logout
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_logout
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_logout passed (1.93s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:48 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:49 | Results: 3/5 passed (60.0%)
+2026-06-05 18:57:36 | WARNING  | qa_framework | legacy_runner.py:52 | Pass rate below 80%!
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:30 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:31 | Starting suite: Performance
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:32 | Tests to run: 2
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:33 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [1/2] Running test_load_page
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_load_page
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:24 | test_load_page passed (0.76s)
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:39 | [2/2] Running test_api_response
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:15 | Running test: test_api_response
+2026-06-05 18:57:36 | ERROR    | qa_framework | legacy_runner.py:20 | test_api_response failed!
+2026-06-05 18:57:36 | DEBUG    | qa_framework | legacy_runner.py:21 | test_api_response duration: 0.80s
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:48 | ==================================================
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:49 | Results: 1/2 passed (50.0%)
+2026-06-05 18:57:36 | WARNING  | qa_framework | legacy_runner.py:52 | Pass rate below 80%!
+2026-06-05 18:57:36 | INFO     | qa_framework | legacy_runner.py:81 | Final: 7/10 overall
