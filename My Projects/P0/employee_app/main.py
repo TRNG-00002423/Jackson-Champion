@@ -38,8 +38,6 @@ def main():
     
         if role == "employee":
             print("\nEmployee menu goes here.")
-        elif role == "manager":
-            print("\nManager menu goes here.")
         else:
             print("\nUnknown role.")
         

@@ -53,18 +53,7 @@ CREATE TABLE IF NOT EXISTS approvals (
 )
 """)
 
-cursor.execute("""
-INSERT OR IGNORE INTO users (username, password, role)
-VALUES (?, ?, ?)
-""", ("employee1", "password123", "employee"))
 
-cursor.execute("""
-INSERT OR IGNORE INTO users (username, password, role)
-VALUES (?, ?, ?)
-""", ("manager1", "admin123", "manager"))
-
-cursor.execute("SELECT id, username, role FROM users")
-print(cursor.fetchall())
 
 
 conn.commit()
