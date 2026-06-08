@@ -13,3 +13,6 @@ logging.basicConfig(
 
 logging.debug("This is a DEBUG Message")
 logging.info("This is TNFO Message")
+logging.warning("Disk space is low")          # ✅ Shows
+logging.error("Failed to connect to database") # ✅ Shows
+logging.critical("Application is crashing!") 
